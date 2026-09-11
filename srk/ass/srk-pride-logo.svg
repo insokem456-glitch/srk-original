@@ -1,0 +1,56 @@
+<svg width="900" height="900" viewBox="0 0 900 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gold" x1="150" y1="120" x2="770" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8E7A3"/>
+      <stop offset="0.2" stop-color="#E7C76D"/>
+      <stop offset="0.5" stop-color="#C58B2C"/>
+      <stop offset="0.8" stop-color="#F5D77A"/>
+      <stop offset="1" stop-color="#B67A1D"/>
+    </linearGradient>
+    <linearGradient id="goldSoft" x1="250" y1="150" x2="640" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF4C9"/>
+      <stop offset="0.5" stop-color="#F9D562"/>
+      <stop offset="1" stop-color="#BD7F16"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="0" stdDeviation="20" flood-color="#E7C76D" flood-opacity="0.9"/>
+    </filter>
+  </defs>
+
+  <rect width="900" height="900" fill="#090909"/>
+
+  <g filter="url(#glow)">
+    <circle cx="450" cy="450" r="346" stroke="url(#gold)" stroke-width="18" fill="none"/>
+  </g>
+
+  <path d="M202 522C273 585 343 610 418 600C506 589 582 535 640 478" stroke="url(#gold)" stroke-width="22" stroke-linecap="round"/>
+  <path d="M228 357C263 335 325 323 386 336C441 347 491 378 542 421" stroke="url(#gold)" stroke-width="22" stroke-linecap="round"/>
+
+  <g>
+    <text x="450" y="490" text-anchor="middle" font-size="280" font-weight="700" font-family="Georgia, 'Times New Roman', serif" fill="url(#goldSoft)" letter-spacing="-18">SRK</text>
+    <path d="M296 325C319 289 340 280 372 282C412 284 436 313 438 348C440 379 416 402 382 404C348 406 322 390 286 350L296 325Z" fill="url(#gold)" opacity="0.55"/>
+    <path d="M618 333C639 299 676 287 710 293C745 300 771 336 770 375C768 409 744 436 709 438C675 440 647 425 616 393L618 333Z" fill="url(#gold)" opacity="0.45"/>
+  </g>
+
+  <g>
+    <path d="M570 475L624 525" stroke="url(#gold)" stroke-width="14" stroke-linecap="round"/>
+    <path d="M608 468C632 446 663 447 691 476C718 503 726 536 709 563C691 591 661 605 630 598C599 590 571 568 557 535" stroke="url(#gold)" stroke-width="10" stroke-linecap="round" fill="none"/>
+    <path d="M659 449C668 417 696 391 730 383C760 376 785 384 803 405C767 421 754 448 760 481C752 470 740 462 726 457C700 448 678 447 659 449Z" fill="#5B9E3E"/>
+    <path d="M718 435C744 416 780 408 809 418C790 431 780 454 784 483C766 470 741 462 718 457L718 435Z" fill="#7ABF49"/>
+  </g>
+
+  <g>
+    <path d="M210 634H690" stroke="url(#gold)" stroke-width="8" stroke-linecap="round"/>
+    <path d="M210 634H690" stroke="rgba(255,255,255,0.25)" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <text x="450" y="700" text-anchor="middle" font-size="110" font-family="'Trebuchet MS', Arial, sans-serif" font-weight="700" letter-spacing="12" fill="url(#goldSoft)">PRIDE</text>
+    <text x="450" y="775" text-anchor="middle" font-size="34" font-family="'Trebuchet MS', Arial, sans-serif" letter-spacing="7" fill="url(#goldSoft)">A BRIGHTER TOMORROW TOGETHER</text>
+  </g>
+
+  <g opacity="0.8">
+    <path d="M253 711C262 701 275 691 287 692C300 694 310 707 306 720C300 736 278 742 263 735C251 729 245 718 253 711Z" fill="url(#gold)"/>
+    <path d="M632 706C619 694 631 673 651 674C673 675 689 693 688 710C687 731 666 744 649 740C634 736 630 719 632 706Z" fill="url(#gold)"/>
+  </g>
+</svg>
